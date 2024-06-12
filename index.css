@@ -1,0 +1,104 @@
+.hero {
+  display: flex;
+  height: calc(100vh - 50px);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  overflow: hidden;
+  column-gap: 50px;
+}
+
+.info {
+  position: relative;
+  left: 20px;
+  flex-basis: 500px;
+}
+
+.info h1 {
+  color: white;
+  padding: 5px 0;
+}
+
+.info h2 {
+  color: white;
+  padding: 5px 0;
+}
+
+/*about section*/
+
+.about {
+  position: relative;
+  right: 20px;
+  flex-basis: 500px;
+}
+
+.about h3 {
+  color: white;
+}
+
+.about p {
+  padding: 5px 0;
+  color: var(--hover-color);
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.hero .socials {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.hero .socials .github {
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.hero .socials .behance {
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.hero .socials .ig {
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.hero .socials .linked {
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.hero .socials .email {
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  padding: 50px 0;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  flex-basis: 500px;
+}
+
+footer .form-link a {
+  margin-top: 10px;
+  font-size: 18px;
+  color: var(--site-color);
+  display: block;
+  background-color: var(--main-color);
+  padding: 5px 10px;
+  width: fit-content;
+  border: 4px solid var(--site-color);
+  cursor: pointer;
+}
